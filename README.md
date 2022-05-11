@@ -51,21 +51,30 @@ How to use it
 
 3.  [Hosting a server]
 3a. Click on "Create Server!" to start the server and allow incoming connections
+
 3b. Click on "Copy Local Invite" if you want to play inside your local network
+
 3c.  or click on "Copy Internet Invite" if you want to play over the internet
+
 3d. An invite code will get copied to your clipboard
+
 3e. Paste it (CTRL+V or Right-Mouse-> Paste) in Discord, send it via email or write it on a postcard to get it to your friends
 
 4. [Joining a server]
 4a. Get the invite code from Discord, email or type it from a postcard into a textfile
+
 4b. Copy the code to your clipboard (CRTL+C or Right-Mouse-> Copy)
+
 4c. Click on "Join Server!"
+
 4d. After a few moments you will be connected and the town will be synchronized
 
 5. Click "Close Connections" to stop Client and/or Server
 
+
 Note:
 One invite code is valid for many players. It is valid as long as no new code is created (by copying).
+
 When a new code is created, current players will stay connected but new players need the new code.
 
 
