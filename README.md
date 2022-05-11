@@ -22,7 +22,7 @@ https://github.com/LavaGang/MelonLoader/releases/latest/
 
 3. Download the mod (latest release) from: https://github.com/DigitalzombieTLD/TownscaperLittleMultiplayer/releases/latest/
 
-4. Extract the all files and folders from the "TownscaperLittleMultiplayer_Release_1.0.0.zip" into your Townscaper folder.
+4. Extract the all files and folders from the "TownscaperLittleMultiplayer_Release_0.9.0.zip" into your Townscaper folder.
 
 - Place the "Byterizer.dll", "enet.dll" and "Open.Nat.dll" inside your Townscaper folder (next to the Townscaper.exe). Overwrite existing files and folders.
 - Place the "LittleMultiplayer.dll", "LittleMultiplayer.unity3d" and the "_ModSettings" folder inside your Mods folder. Overwrite existing files and folders.
