@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 #endif
 
+using MelonLoader;
 using System;
 using System.Collections.Generic;
 using System.Threading;
@@ -14,6 +15,7 @@ using UnityEngine;
 
 namespace DigitalRuby.Threading
 {
+    [RegisterTypeInIl2Cpp]
     public class EZThread : MonoBehaviour
     {
 		/// <summary>

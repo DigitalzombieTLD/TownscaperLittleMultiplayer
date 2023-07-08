@@ -15,8 +15,8 @@ namespace ENet
 	{
 		public void IncomingMessage(ref Event incomingMessage)
 		{
-			byte[] readBuffer = new byte[20480];
-			byte[] relayBuffer = new byte[20480];
+			byte[] readBuffer = new byte[81920];
+			byte[] relayBuffer = new byte[81920];
 
 			ByteStream incomingByteStream;
 			ByteStream relayByteStream;

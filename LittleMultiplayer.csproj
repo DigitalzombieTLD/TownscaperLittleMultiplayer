@@ -34,32 +34,35 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\Steam\steamapps\common\Townscaper\MelonLoader\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Byterizer">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\Byterizer.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\Byterizer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Il2CppSystem">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Il2CppSystem.Core">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Il2CppSystem.Core.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Il2CppSystem.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="MelonLoader">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\MelonLoader.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\MelonLoader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ModUI">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\Mods\ModUI.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\Mods\ModUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Open.Nat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f22a6a4582336c76, processorArchitecture=MSIL">
@@ -74,7 +77,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Json">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\System.Json.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\System.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -91,51 +94,51 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnhollowerBaseLib">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnhollowerRuntimeLib">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Unity.Mathematics.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.InputModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:\Games\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>W:\Steam\steamapps\common\Townscaper\MelonLoader\Managed\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -162,8 +165,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <EmbeddedResource Include="Resources\LittleMultiplayerBundle" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Microsoft.Extensions.Logging.Abstractions.6.0.1\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('packages\Microsoft.Extensions.Logging.Abstractions.6.0.1\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

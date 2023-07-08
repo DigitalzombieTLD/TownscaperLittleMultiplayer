@@ -1,20 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net.Sockets;
+﻿using System.IO;
 using MelonLoader;
-using Mono.Cecil;
-using TMPro;
 using UnityEngine;
-using System.Threading;
-using System.Runtime.InteropServices;
-using System.ComponentModel;
 using DigitalRuby.Threading;
-using ENet;
-using HarmonyLib;
-using Placemaker;
 using UnhollowerRuntimeLib;
 using Placemaker.Ui;
+using System.Reflection;
 
 namespace LittleMultiplayer
 {
@@ -22,15 +12,12 @@ namespace LittleMultiplayer
     {
 		public static SunButton currentSunButton;
 
-	    public override void OnApplicationStart()
+	    public override void OnInitializeMelon()
 		{
-			ClassInjector.RegisterTypeInIl2Cpp<EZThread>();
+            LoadEmbeddedAssetBundle();
 			
 			Application.runInBackground = true;
 			MyInput.thisMod = this;
-
-			OnScreenMessageManager.multiplayerBundle = Il2CppAssetBundleManager.LoadFromFile("Mods\\LittleMultiplayer.unity3d");
-
 		}
 
 		public override void OnSceneWasLoaded(int buildIndex, string sceneName)
@@ -56,6 +43,14 @@ namespace LittleMultiplayer
 			IP.DeleteNATPortMapping();
 		}
 
+        public static void LoadEmbeddedAssetBundle()
+        {
+            MemoryStream memoryStream;
+            Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("LittleMultiplayer.Resources.LittleMultiplayerBundle");
+            memoryStream = new MemoryStream((int)stream.Length);
+            stream.CopyTo(memoryStream);
 
-	}
+            OnScreenMessageManager.multiplayerBundle = Il2CppAssetBundleManager.LoadFromMemory(memoryStream.ToArray());
+        }
+    }
 }

@@ -7,7 +7,7 @@ using LittleMultiplayer;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: MelonInfo(typeof(LittleMultiplayerMain), "LittleMultiplayer", "0.9.0", "Digitalzombie", "")]
+[assembly: MelonInfo(typeof(LittleMultiplayerMain), "LittleMultiplayer", "1.0.0", "Digitalzombie", "")]
 [assembly: MelonGame("Raw Fury", "Townscaper")]
 [assembly: AssemblyTitle("LittleMultiplayer")]
 [assembly: AssemblyDescription("LittleMultiplayer")]
