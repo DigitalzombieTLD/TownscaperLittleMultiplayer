@@ -1,4 +1,4 @@
-Townscaper - LittleMultiplayer - v0.9.0 by Digitalzombie
+Townscaper - LittleMultiplayer - v1.0.0 by Digitalzombie
 ===========================================================
 
 ![Screenshot](https://github.com/DigitalzombieTLD/TownscaperLittleMultiplayer/raw/master/LittleMultiplayer.jpg)
@@ -13,7 +13,7 @@ https://github.com/LavaGang/MelonLoader/releases/latest/
 
 2.1. Click "Select" and navigate to your Townscaper folder and select the Townscaper.exe (usually: C:\Program Files(x86)\Steam\steamapps\common\Townscaper\Townscaper.exe)
 
-2.2. Untick the "Latest" checkbox and choose version 0.4.3
+2.2. **Untick the "Latest" checkbox and choose version 0.5.7**
 
 2.3. Click install 
 
@@ -22,7 +22,7 @@ https://github.com/LavaGang/MelonLoader/releases/latest/
 
 3. Download the mod (latest release) from: https://github.com/DigitalzombieTLD/TownscaperLittleMultiplayer/releases/latest/
 
-4. Extract the all files and folders from the "TownscaperLittleMultiplayer_Release_0.9.0.zip" into your Townscaper folder.
+4. Extract the all files and folders from the "LittleMultiplayer_Release_1.0.0.zip" into your Townscaper folder.
 
 - Place the "Byterizer.dll", "enet.dll" and "Open.Nat.dll" inside your Townscaper folder (next to the Townscaper.exe). Overwrite existing files and folders.
 - Place the "LittleMultiplayer.dll", "LittleMultiplayer.unity3d" and the "_ModSettings" folder inside your Mods folder. Overwrite existing files and folders.
@@ -104,6 +104,8 @@ In general, if something goes wrong, the game is mostly likely to crash on playe
 
 Saving your town is highly recommended! Please report any problems you encounter (Discord link at the end or on YouTube)
 
+Activity indicator for other players broken, because of changes in the game. Nothing I can do about that. Sorry.
+
 
 Technical stuff for advanced users
 ===================================
@@ -142,4 +144,6 @@ Townscaper LittleMultiplayer is licensed under GNU General Public License v3.0
 
 Changelog:
 ==========
+1.0.0 - Updated for the latest game version, lost the activity indicator
+
 0.9.0 - First release!
